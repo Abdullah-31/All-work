@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "helvticea nune", "helvticea nune", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: #fcf5eb;
+    padding: 0 30px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.Features {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Features ::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background: #25d366;
+}
+
+.Features>img {
+    rotate: -90deg;
+    width: 8px;
+    height: 13px;
+}
+
+.wahtsapplogo {
+    width: 130px;
+    height: 30px;
+}
+
+.nev-item {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+}
+
+.nev-item>p {
+    cursor: pointer;
+}
+
+.nav-bar>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    background: #25d366;
+    border: none;
+    border: 1px solid black;
+}
+
+.dowanload-logo {
+    margin-left: 10px;
+}
